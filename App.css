@@ -1,0 +1,217 @@
+/* App.css */
+.App {
+  font-family: Arial, sans-serif;
+  padding: 10px;
+}
+
+.header {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.saveButton {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.popup {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 500px;
+  position: absolute;
+  top: 56%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.segmentInput {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.dropdownContainer {
+  margin-bottom: 20px;
+}
+
+.dropdown {
+  margin-bottom: 10px;
+}
+
+.dropdown h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.addSchemaLink {
+  color: #007bff;
+  text-decoration: none;
+  cursor: pointer;
+  display: block;
+  margin-top: 10px;
+}
+
+.buttonsContainer button {
+  padding: 10px 20px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.saveSegmentButton {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.cancelButton {
+  background-color: #dc3545;
+  color: #fff;
+}
+.dropdown {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+/* Dropdown label */
+.dropdown h3 {
+  margin-bottom: 5px;
+}
+
+/* Dropdown select */
+.dropdown select {
+  width: 85%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  /* background-color: #f8f8f8; */
+  font-size: 13px;
+  margin-left: 20px;
+}
+
+/* Dropdown select options */
+.dropdown select option {
+  padding: 10px;
+}
+
+/* Add new schema link */
+.addSchemaLink {
+  display: block;
+  margin-top: 10px;
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+  padding-left: 20px;
+}
+
+/* Popup buttons container */
+.buttonsContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* Save and cancel buttons */
+.saveSegmentButton, .cancelButton {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.addSchema-space{
+  padding: 10px;
+}
+
+.saveSegmentButton {
+  background-color: #4caf50;
+  color: white;
+}
+
+.cancelButton {
+  background-color: #f44336;
+  color: white;
+}
+.dropdown {
+  position: relative; /* Needed for absolute positioning of the remove icon */
+}
+
+/* Remove icon */
+.removeIcon {
+  position: absolute;
+  top: 50%;
+  right: 0px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  background-color: lightgray;
+  padding: 12px;
+  border-radius: 5px;
+}
+
+/* Style the icon */
+.removeIcon .fa-times {
+  color: #808080; /* Grey color */
+  background-color: #f0f0f0; /* Light grey background */
+  border-radius: 50%; /* Rounded shape */
+  padding: 5px; /* Adjust padding as needed */
+}
+.circleUser{
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #28a745;
+  margin-right: 5px;
+}
+.circleGroup{
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: red;
+  margin-left: 20px;
+  margin-right: 5px;
+}
+.circleAlignment{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.circleAlignment.end{
+  justify-content: end;
+}
+.circleAlignment div{
+  font-size: 12px;
+}
+.circleUser.traits , .circleGroup.traits , .addschemaCircle{
+  position: absolute;
+  top: 12px;
+  margin-left: 0px;
+}
+.addschemaCircle{
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #D7D9DB;
+  margin-right: 5px; 
+}
+select:focus-visible{
+  outline: none;
+}
+.trait-border{
+  border: 2px solid lightblue;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+.schema-space{
+  padding: 10px;
+}
